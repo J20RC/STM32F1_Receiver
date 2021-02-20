@@ -96,6 +96,7 @@ int main()
 				PWMvalue[i] = 1500;//未用到的通道全部置中
 			}
 			//printf("%d,%d,%d,%d\n",PWMvalue[4],PWMvalue[5],PWMvalue[6],PWMvalue[7]);
+			signalLoss = 0;//信号已连接标志
 			LED = 0;
 			lastTime = nowTime;
 		}
